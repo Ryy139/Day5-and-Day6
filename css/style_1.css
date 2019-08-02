@@ -1,0 +1,39 @@
+    /* 消除默认样式 */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif,雅黑;
+}
+.tle{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+.p1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.main .u1 li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.main .u1 li .p2{
+    display: inline;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.u2 li .p2{
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.u1 li:nth-child(2){
+    margin: 0 30px;
+}
